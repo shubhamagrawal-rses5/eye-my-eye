@@ -37,7 +37,7 @@ export default function Chatbot() {
   };
   return (
     <div className="chatbox">
-       <Mic messages={messages} send={send}/>
+       <Mic onSend={send}/>
        <div className="App">
       <Header/>
       <Messages messages={messages}/>

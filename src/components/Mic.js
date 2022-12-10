@@ -4,7 +4,7 @@ import "./Mic.css";
 import microPhoneIcon from "./microphone.svg";
 
 
-function Mic() {
+function Mic({onSend}) {
   const { transcript, resetTranscript } = useSpeechRecognition();
   const [isListening, setIsListening] = useState(false);
   // const [input,setinput] = useState();
@@ -27,11 +27,12 @@ function Mic() {
     setIsListening(false);
     microphoneRef.current.classList.remove("listening");
     SpeechRecognition.stopListening();
-    // setinput(transcript);
-    // console.log(input);
+    onSend(transcript);
   };
   const handleReset = () => {
-    stopHandle();
+     setIsListening(false);
+    microphoneRef.current.classList.remove("listening");
+    SpeechRecognition.stopListening();
     resetTranscript();
   };
   return (
