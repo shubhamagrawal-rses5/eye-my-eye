@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className="header">&nbsp;AI Chatbot </div>
+    <div className="header">&nbsp;AI Bot </div>
   )
 }
