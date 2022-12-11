@@ -7,7 +7,7 @@ export default function App() {
 
   return (
   <>
-  <div className="main_heading">Heading</div>
+  <div className="main_heading">Mitram.ai</div>
   <Chatbot/>
   </>   
   );
