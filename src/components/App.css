@@ -65,6 +65,7 @@
   background: #00aaa5;
   color: white;
   min-width: 40px;
+  max-width: 85%;
 }
 
 .user-message {
@@ -74,6 +75,7 @@
   border-radius: 20px 20px 1px 20px;
   background: #cccccc;
   color: #002f50;
+  max-width: 85%;
 }
 
 .input {
