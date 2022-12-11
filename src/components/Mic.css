@@ -7,7 +7,7 @@
   /* height: 50vh; */
   margin:auto;
   margin-bottom:3em;
-  color: #002f50;
+  color: rgb(255, 255, 255);
 }
 .microphone-icon-container {
   width: 40px;
@@ -80,6 +80,7 @@
 .microphone-result-text {
   margin-bottom: 30px;
   width: 70vw;
+  color: rgb(255, 255, 255);
   overflow-y: auto;
 }
 .microphone-reset {

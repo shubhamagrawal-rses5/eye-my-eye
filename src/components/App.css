@@ -8,7 +8,7 @@
 .App {
   font-family: monospace;
   border-radius: 10px;
-  box-shadow: 0 12px 24px 0 rgba(241, 238, 238, 0.15);
+  box-shadow: 0 16px 28px 0 rgba(241, 238, 238, 0.25);
   background: #f5f8fb;
   text-align: center;
   display: flex;
@@ -16,7 +16,7 @@
   /* width: 50em; */
   max-width: 900px;
   overflow: hidden;
-  border: 0.5px solid white;
+  border: 2px solid white;
   margin: auto;
 }
 
@@ -29,7 +29,7 @@
   padding-top: 1rem;
   margin: auto;
   font-size: 2rem;
-  color: #043d65;
+  color: rgb(255, 255, 255);
 }
 
 .header {
@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px 0px;
-  /* border: 2px solid blue; */
+  /* border: 5px solid red; */
 }
 
 .message-container {
