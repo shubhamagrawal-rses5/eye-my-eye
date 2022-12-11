@@ -4,15 +4,17 @@ import './App.css';
 
 import BotMessage from "./BotMessage";
 import UserMessage from "./UserMessage";
-import API from "./ChatbotAPI";
+import API from "./ChatbotAPI.js";
 import Mic from "./Mic";
 import Header from './Header';
 import Messages from './Messages';
 import Input from "./Input";
-
+import { ChatGPTAPI } from 'chatgpt';
 
 export default function Chatbot() {
   const [messages, setMessages] = useState([]);
+  // const api = new ChatGPTAPI({ sessionToken: process.env.RECAT_APP_SESSION_TOKEN });
+    // await api.ensureAuth();
   useEffect(() => {
     async function loadWelcomeMessage() {
       setMessages([
