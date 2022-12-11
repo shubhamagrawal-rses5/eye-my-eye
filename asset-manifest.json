@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/eye-my-eye/static/css/main.9dc96db1.css",
-    "main.js": "/eye-my-eye/static/js/main.d05d3a98.js",
+    "main.css": "/eye-my-eye/static/css/main.aefca17b.css",
+    "main.js": "/eye-my-eye/static/js/main.93eed0fb.js",
     "static/js/787.d3befce1.chunk.js": "/eye-my-eye/static/js/787.d3befce1.chunk.js",
+    "static/media/jonatan-pie-3l3RwQdHRHg-unsplash.jpg": "/eye-my-eye/static/media/jonatan-pie-3l3RwQdHRHg-unsplash.375d449c2c86b4ceddab.jpg",
     "static/media/microphone.svg": "/eye-my-eye/static/media/microphone.97231c569f41cd85fe2ce15349c903bf.svg",
     "index.html": "/eye-my-eye/index.html",
-    "main.9dc96db1.css.map": "/eye-my-eye/static/css/main.9dc96db1.css.map",
-    "main.d05d3a98.js.map": "/eye-my-eye/static/js/main.d05d3a98.js.map",
+    "main.aefca17b.css.map": "/eye-my-eye/static/css/main.aefca17b.css.map",
+    "main.93eed0fb.js.map": "/eye-my-eye/static/js/main.93eed0fb.js.map",
     "787.d3befce1.chunk.js.map": "/eye-my-eye/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc96db1.css",
-    "static/js/main.d05d3a98.js"
+    "static/css/main.aefca17b.css",
+    "static/js/main.93eed0fb.js"
   ]
 }
